@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ccc;
+}
+
+#hidden {
+    position: relative;
+    display: inline-block;
+    border: 1px solid blue;
+    margin: 10px 0;
+    padding: 10px;
+    &:before {
+        content:'HIDDEN';
+        display: block;
+        font-size: 10px;
+        position: absolute;
+        top: -7px;
+        left: 10px;
+        background: white;
+    }
+}
+
+.my-hand {
+    padding: 10px;
+    border: 1px solid red;
+}

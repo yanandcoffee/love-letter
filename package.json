@@ -1,0 +1,30 @@
+{
+  "name": "love-letter",
+  "version": "1.0.0",
+  "description": "JS adaptation of the card game, Love Letter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kaizora/love-letter.git"
+  },
+  "author": "Yan Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaizora/love-letter/issues"
+  },
+  "homepage": "https://github.com/kaizora/love-letter#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1"
+  }
+}
