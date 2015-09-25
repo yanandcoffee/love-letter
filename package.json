@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kaizora/love-letter.git"
+    "url": "git+ssh://git@github.com/yanandcoffee/love-letter.git"
   },
   "author": "Yan Li",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaizora/love-letter/issues"
+    "url": "https://github.com/yanandcoffee/love-letter/issues"
   },
-  "homepage": "https://github.com/kaizora/love-letter#readme",
+  "homepage": "https://github.com/yanandcoffee/love-letter#readme",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
